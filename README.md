@@ -1,43 +1,111 @@
-# 📚 Data Structures & Algorithms in C++
+# 🚀 DSA Problem Solving in C++ (LeetCode Focused)
 
-Welcome to my **C++ DSA Repository** 🚀  
-This repository contains well-structured and optimized implementations of **Data Structures and Algorithms** using **C++**, created for practice, interviews, and competitive programming.
+Welcome to my **DSA Problem Solving Repository** 👨‍💻  
+This repository contains **solutions to Data Structures & Algorithms problems** solved using **C++**, mainly from **LeetCode**.  
+The focus is on **logic building, optimization, and consistency**, not on from-scratch data structure implementation.
 
 ---
 
-## 🧠 Topics Covered
+## 📌 What This Repository Contains
 
-### 🔹 Data Structures
+✔ LeetCode DSA problem solutions  
+✔ Concept-wise problem solving  
+✔ Optimized & readable C++ code  
+✔ Daily practice for interview preparation
 
-- Arrays
-- Strings
+---
+
+## 🧠 Concepts Covered Through Problems
+
+- Arrays & Hashing
+- Two Pointers
+- Sliding Window
+- Binary Search
+- Stack & Queue
 - Linked List
-- Stack
-- Queue
-- Hashing
 - Trees
-- Binary Search Tree
-- Heap
-- Graph
-
-### 🔹 Algorithms
-
-- Sorting (Bubble, Selection, Insertion, Merge, Quick)
-- Searching (Linear, Binary)
-- Recursion & Backtracking
-- Greedy Algorithms
-- Divide & Conquer
+- Tries
+- Heap / Priority Queue
+- Intervals
+- Greedy
+- Recursion / Backtracking
+- Graphs
+- Advanced Graphs
 - Dynamic Programming
-- Graph Algorithms (BFS, DFS)
+  - 1-D DP
+  - 2-D DP
+- Bit Manipulation
+- Math & Geometry
+
+---
+
+## 🔥 Daily LeetCode Practice
+
+📅 I solve **DSA problems daily** and upload solutions here.
+
+📁 Folder Structure:
+┣ 📁 Arrays & Hashing
+┣ 📁 Two Pointers
+┣ 📁 Sliding Window
+┣ 📁 Binary Search
+┣ 📁 Stack
+┣ 📁 Queue
+┣ 📁 Linked List
+┣ 📁 Trees
+┣ 📁 Tries
+┣ 📁 Heap & Priority Queue
+┣ 📁 Intervals
+┣ 📁 Greedy
+┣ 📁 Recursion & Backtracking
+┣ 📁 Graphs
+┣ 📁 Advanced Graphs
+┣ 📁 1-D Dynamic Programming
+┣ 📁 2-D Dynamic Programming
+┣ 📁 Bit Manipulation
+┣ 📁 Math & Geometry
 
 ---
 
 ## 🛠️ Tech Stack
 
 - Language: **C++**
-- Compiler: GCC
+- Platform: LeetCode
 - IDE: VS Code
 
 ---
 
-## 📂 Folder Structure
+## ▶️ How to Run
+
+```bash
+g++ filename.cpp
+./a.out
+
+---
+
+🎯 Purpose
+Strengthen DSA concepts through problems
+
+Improve logical thinking
+
+Prepare for coding interviews
+
+Maintain daily coding discipline
+
+---
+
+👨‍💻 Author
+Aditya
+B.Tech Student | Frontend Developer | DSA Learner
+
+---
+
+🔗 LeetCode Profile
+
+LeetCode: https://leetcode.com/u/AdityaKumarShaw02/
+
+---
+
+⭐ Support
+If you find this repository useful, give it a ⭐
+Consistency beats talent 💪
+```
