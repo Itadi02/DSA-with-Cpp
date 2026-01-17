@@ -1,7 +1,7 @@
 // Longest Substring Without Repeating Characters
 #include <iostream>
 #include <algorithm>
-#include <unordered_map>
+#include <unordered_set>
 #include <vector>
 using namespace std;
 class Solution
@@ -9,23 +9,20 @@ class Solution
 public:
     int lengthOfLongestSubstring(string s)
     {
-        int n = s.length();
-        int maxLength = 0;
-        unordered_map<char, int> charMap;
         int left = 0;
+        int maxLength = 0;
+        unordered_set<char> charSet;
 
-        for (int right = 0; right < n; right++)
+        for (int right = 0; right < s.length(); right++)
         {
-            if (charMap.count(s[right]) == 0 || charMap[s[right]] < left)
+            while (charSet.find(s[right]) != charSet.end())
             {
-                charMap[s[right]] = right;
-                maxLength = max(maxLength, right - left + 1);
+                charSet.erase(s[left]);
+                left++;
             }
-            else
-            {
-                left = charMap[s[right]] + 1;
-                charMap[s[right]] = right;
-            }
+
+            charSet.insert(s[right]);
+            maxLength = max(maxLength, right - left + 1);
         }
 
         return maxLength;
