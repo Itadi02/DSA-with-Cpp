@@ -1,0 +1,32 @@
+// there are two types of sliding window :
+// 1. Fixed Window size
+while(j < n) {
+    sum += arr[j];
+
+    if(j - i + 1 == k) {
+        ans = max(ans, sum);
+        sum -= arr[i];
+        i++;
+    }
+    j++;
+}
+
+//2. variable window size
+
+while(j < n) {
+
+    // 1️⃣ include j
+    add(arr[j]);
+
+    // 2️⃣ condition break hui?
+    while(condition_break) {
+        remove(arr[i]);
+        i++;
+    }
+
+    // 3️⃣ condition valid → answer update
+    ans = max(ans, j - i + 1);
+
+    // 4️⃣ window badhao
+    j++;
+}
