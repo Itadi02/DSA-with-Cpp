@@ -1,4 +1,4 @@
-// 704. Binary Search
+// 74. Search a 2D Matrix
 #include <iostream>
 #include <algorithm>
 #include <vector>
