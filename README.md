@@ -94,7 +94,7 @@ Maintain daily coding discipline
 ---
 
 👨‍💻 Author
-Aditya
+Aditya Kumar Shaw
 B.Tech Student | Frontend Developer | DSA Learner
 
 ---
