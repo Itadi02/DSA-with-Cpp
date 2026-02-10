@@ -1,4 +1,4 @@
-// 374. Guess Number Higher or Lower
+// 4. Median of Two Sorted Arrays
 #include <iostream>
 #include <algorithm>
 #include <vector>
