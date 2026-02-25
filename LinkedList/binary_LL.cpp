@@ -1,4 +1,4 @@
-// 141. Linked List Cycle
+// 1290. Convert Binary Number in a Linked List to Integer
 
 #include <iostream>
 #include <algorithm>
